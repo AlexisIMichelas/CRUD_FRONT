@@ -3,7 +3,7 @@ import { HttpClient, HttpEvent, HttpRequest } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Article } from '../models/article.model';
 
-const baseUrl = 'https://crud-back-omega.vercel.app/api/articles';
+const baseUrl = 'https://crud-back-kappa.vercel.app/api/articles';
 
 @Injectable({
   providedIn: 'root',
