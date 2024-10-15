@@ -17,9 +17,9 @@ import { UserManagementComponent } from './components/user-management/user-manag
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'articles', component: ArticlesListComponent, canActivate: [AdminGuard]  },
-  { path: 'articles/:id', component: ArticleDetailsComponent, canActivate: [AdminGuard]  },
-  { path: 'add', component: AddArticleComponent, canActivate: [AdminGuard]  },
+  { path: 'articles', component: ArticlesListComponent },
+  { path: 'articles/:id', component: ArticleDetailsComponent },
+  { path: 'add', component: AddArticleComponent },
   { path: 'show', component: ArticlesShowComponent },
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
